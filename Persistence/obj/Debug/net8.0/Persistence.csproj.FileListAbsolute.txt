@@ -13,3 +13,4 @@ C:\Users\wlove\Documents\repos\ReactTutorial\Reactivities\Persistence\obj\Debug\
 C:\Users\wlove\Documents\repos\ReactTutorial\Reactivities\Persistence\obj\Debug\net8.0\refint\Persistence.dll
 C:\Users\wlove\Documents\repos\ReactTutorial\Reactivities\Persistence\obj\Debug\net8.0\Persistence.pdb
 C:\Users\wlove\Documents\repos\ReactTutorial\Reactivities\Persistence\obj\Debug\net8.0\ref\Persistence.dll
+C:\Users\wlove\Documents\repos\ReactTutorial\Reactivities\Persistence\obj\Debug\net8.0\Persistence.sourcelink.json

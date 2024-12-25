@@ -131,3 +131,4 @@ C:\Users\wlove\Documents\repos\ReactTutorial\Reactivities\API\bin\Debug\net8.0\r
 C:\Users\wlove\Documents\repos\ReactTutorial\Reactivities\API\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\wlove\Documents\repos\ReactTutorial\Reactivities\API\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\wlove\Documents\repos\ReactTutorial\Reactivities\API\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\wlove\Documents\repos\ReactTutorial\Reactivities\API\obj\Debug\net8.0\API.sourcelink.json
