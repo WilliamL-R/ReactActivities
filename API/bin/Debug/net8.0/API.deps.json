@@ -16,11 +16,54 @@
           "API.dll": {}
         }
       },
+      "Autofac/8.1.1": {
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/Autofac.dll": {
+            "assemblyVersion": "8.1.1.0",
+            "fileVersion": "8.1.1.0"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "MediatR/12.4.1": {
+        "dependencies": {
+          "MediatR.Contracts": "2.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/MediatR.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.4.1.0"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "MediatR.Extensions.Autofac.DependencyInjection/12.2.0": {
+        "dependencies": {
+          "Autofac": "8.1.1",
+          "MediatR": "12.4.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Autofac.DependencyInjection.dll": {
+            "assemblyVersion": "12.2.0.0",
+            "fileVersion": "12.2.0.0"
           }
         }
       },
@@ -658,6 +701,14 @@
           }
         }
       },
+      "System.Diagnostics.DiagnosticSource/8.0.1": {
+        "runtime": {
+          "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.424.16909"
+          }
+        }
+      },
       "System.IO.Pipelines/6.0.3": {},
       "System.Memory/4.5.3": {},
       "System.Reflection.Metadata/6.0.1": {
@@ -681,6 +732,7 @@
       "Application/1.0.0": {
         "dependencies": {
           "Domain": "1.0.0",
+          "MediatR.Extensions.Autofac.DependencyInjection": "12.2.0",
           "Persistence": "1.0.0"
         },
         "runtime": {
@@ -709,12 +761,40 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Autofac/8.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lhHjVB/XJtxPDUQ/FAHWAC7Spu+P9TNfDbyx2W0ABqD1eTRo7TkcZ7l7Oq1S5pKNg7NXswdk9uH73qbOzSwQFA==",
+      "path": "autofac/8.1.1",
+      "hashPath": "autofac.8.1.1.nupkg.sha512"
+    },
     "Humanizer.Core/2.14.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "MediatR/12.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0tLxCgEC5+r1OCuumR3sWyiVa+BMv3AgiU4+pz8xqTc+2q1WbUEXFOr7Orm96oZ9r9FsldgUtWvB2o7b9jDOaw==",
+      "path": "mediatr/12.4.1",
+      "hashPath": "mediatr.12.4.1.nupkg.sha512"
+    },
+    "MediatR.Contracts/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "path": "mediatr.contracts/2.0.1",
+      "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
+    },
+    "MediatR.Extensions.Autofac.DependencyInjection/12.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z0vu/aH+Kn+uor9Q5ALkvyJ6f3oMLGheY39K2CCbol2h9ckD4U+VeK3DGVqNXqkQNGsfhkxpwnHs1nuoKIcUWA==",
+      "path": "mediatr.extensions.autofac.dependencyinjection/12.2.0",
+      "hashPath": "mediatr.extensions.autofac.dependencyinjection.12.2.0.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
       "type": "package",
@@ -1016,6 +1096,13 @@
       "sha512": "sha512-iUR1eHrL8Cwd82neQCJ00MpwNIBs4NZgXzrPqx8NJf/k4+mwBO0XCRmHYJT4OLSwDDqh5nBLJWkz5cROnrGhRA==",
       "path": "system.composition.typedparts/6.0.0",
       "hashPath": "system.composition.typedparts.6.0.0.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vaoWjvkG1aenR2XdjaVivlCV9fADfgyhW5bZtXT23qaEea0lWiUljdQuze4E31vKM7ZWJaSUsbYIKE3rnzfZUg==",
+      "path": "system.diagnostics.diagnosticsource/8.0.1",
+      "hashPath": "system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512"
     },
     "System.IO.Pipelines/6.0.3": {
       "type": "package",

@@ -9,10 +9,54 @@
       "Application/1.0.0": {
         "dependencies": {
           "Domain": "1.0.0",
+          "MediatR.Extensions.Autofac.DependencyInjection": "12.2.0",
           "Persistence": "1.0.0"
         },
         "runtime": {
           "Application.dll": {}
+        }
+      },
+      "Autofac/8.1.1": {
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/Autofac.dll": {
+            "assemblyVersion": "8.1.1.0",
+            "fileVersion": "8.1.1.0"
+          }
+        }
+      },
+      "MediatR/12.4.1": {
+        "dependencies": {
+          "MediatR.Contracts": "2.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/MediatR.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.4.1.0"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "MediatR.Extensions.Autofac.DependencyInjection/12.2.0": {
+        "dependencies": {
+          "Autofac": "8.1.1",
+          "MediatR": "12.4.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Autofac.DependencyInjection.dll": {
+            "assemblyVersion": "12.2.0.0",
+            "fileVersion": "12.2.0.0"
+          }
         }
       },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
@@ -330,6 +374,14 @@
           }
         }
       },
+      "System.Diagnostics.DiagnosticSource/8.0.1": {
+        "runtime": {
+          "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.424.16909"
+          }
+        }
+      },
       "System.Memory/4.5.3": {},
       "System.Text.Encodings.Web/8.0.0": {},
       "System.Text.Json/8.0.0": {
@@ -358,6 +410,34 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Autofac/8.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lhHjVB/XJtxPDUQ/FAHWAC7Spu+P9TNfDbyx2W0ABqD1eTRo7TkcZ7l7Oq1S5pKNg7NXswdk9uH73qbOzSwQFA==",
+      "path": "autofac/8.1.1",
+      "hashPath": "autofac.8.1.1.nupkg.sha512"
+    },
+    "MediatR/12.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0tLxCgEC5+r1OCuumR3sWyiVa+BMv3AgiU4+pz8xqTc+2q1WbUEXFOr7Orm96oZ9r9FsldgUtWvB2o7b9jDOaw==",
+      "path": "mediatr/12.4.1",
+      "hashPath": "mediatr.12.4.1.nupkg.sha512"
+    },
+    "MediatR.Contracts/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "path": "mediatr.contracts/2.0.1",
+      "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
+    },
+    "MediatR.Extensions.Autofac.DependencyInjection/12.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z0vu/aH+Kn+uor9Q5ALkvyJ6f3oMLGheY39K2CCbol2h9ckD4U+VeK3DGVqNXqkQNGsfhkxpwnHs1nuoKIcUWA==",
+      "path": "mediatr.extensions.autofac.dependencyinjection/12.2.0",
+      "hashPath": "mediatr.extensions.autofac.dependencyinjection.12.2.0.nupkg.sha512"
     },
     "Microsoft.Data.Sqlite.Core/8.0.0": {
       "type": "package",
@@ -505,6 +585,13 @@
       "sha512": "sha512-PQ2Oq3yepLY4P7ll145P3xtx2bX8xF4PzaKPRpw9jZlKvfe4LE/saAV82inND9usn1XRpmxXk7Lal3MTI+6CNg==",
       "path": "sqlitepclraw.provider.e_sqlite3/2.1.6",
       "hashPath": "sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vaoWjvkG1aenR2XdjaVivlCV9fADfgyhW5bZtXT23qaEea0lWiUljdQuze4E31vKM7ZWJaSUsbYIKE3rnzfZUg==",
+      "path": "system.diagnostics.diagnosticsource/8.0.1",
+      "hashPath": "system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512"
     },
     "System.Memory/4.5.3": {
       "type": "package",

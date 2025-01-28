@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jlqb3nzVBTKGNd2bp63kxnEGlfQ5bC452ZcK6EKDCpiqPNEdnceXsYWoJZ9vFv+Mf4vXc3HcJfw0dGEA0cN7lw==",
+  "dgSpecHash": "SrBGeL0AET6YfK3t7PmbYD9uyWgXGzgmmONEfrUl/x5r5u9js5T3bhtZJQMMKUou8yhYFM9gpP+OsoQNAvv6Fw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wlove\\Documents\\repos\\ReactTutorial\\Reactivities\\Persistence\\Persistence.csproj",
+  "projectFilePath": "C:\\Users\\wlove\\Documents\\Repos\\ReactActivities\\ReactActivities\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wlove\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.0\\microsoft.data.sqlite.core.8.0.0.nupkg.sha512",
     "C:\\Users\\wlove\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",

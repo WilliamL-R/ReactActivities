@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "SVUmDCZs0NFsWAqk533fvXUZJqIRkww4nzJie/HfW5wIdoOKG18SWdqmmTVtycQ3CFVmOcAAa5zi+mnWEUPQmQ==",
+  "dgSpecHash": "484LSE1e5o6JQBb7SHU9n2HaeDHpR4w82oy0OKjYkT/9akATqVO0S8aKMG7F+/9YIFszhOU/glyT2NzDrwwW4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wlove\\Documents\\repos\\ReactTutorial\\Reactivities\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\wlove\\Documents\\Repos\\ReactActivities\\ReactActivities\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\wlove\\.nuget\\packages\\autofac\\8.1.1\\autofac.8.1.1.nupkg.sha512",
+    "C:\\Users\\wlove\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\wlove\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\wlove\\.nuget\\packages\\mediatr.extensions.autofac.dependencyinjection\\12.2.0\\mediatr.extensions.autofac.dependencyinjection.12.2.0.nupkg.sha512",
     "C:\\Users\\wlove\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.0\\microsoft.data.sqlite.core.8.0.0.nupkg.sha512",
     "C:\\Users\\wlove\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
     "C:\\Users\\wlove\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0\\microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512",
@@ -25,6 +29,7 @@
     "C:\\Users\\wlove\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
     "C:\\Users\\wlove\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\wlove\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.6\\sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\wlove\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.1\\system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512",
     "C:\\Users\\wlove\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\wlove\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\wlove\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
