@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wlove\\Documents\\Repos\\ReactActivities\\ReactActivities\\Domain\\Domain.csproj": {}
+    "C:\\Users\\p48747wl\\repos\\ReactActivities\\ReactActivities\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wlove\\Documents\\Repos\\ReactActivities\\ReactActivities\\Domain\\Domain.csproj": {
+    "C:\\Users\\p48747wl\\repos\\ReactActivities\\ReactActivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wlove\\Documents\\Repos\\ReactActivities\\ReactActivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\p48747wl\\repos\\ReactActivities\\ReactActivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\wlove\\Documents\\Repos\\ReactActivities\\ReactActivities\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\wlove\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wlove\\Documents\\Repos\\ReactActivities\\ReactActivities\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\p48747wl\\repos\\ReactActivities\\ReactActivities\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\p48747wl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\p48747wl\\repos\\ReactActivities\\ReactActivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\wlove\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\p48747wl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
