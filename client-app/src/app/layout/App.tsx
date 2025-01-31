@@ -46,6 +46,10 @@ function App() {
     setEditMode(false);
     setSelectedActivity(activity);
   }
+  
+  function handleDeleteActivity(id: string) {
+    setActivities([...activities.filter(activity => activity.id !== id)])
+  }
 
   return (
     <Fragment>
@@ -60,6 +64,7 @@ function App() {
           openForm={handleFormOpen}
           closeForm={handleFormClose}
           createOrEdit={handleCreateOrEditActivity}
+          deleteActivity={handleDeleteActivity}
         />
       </Container>
     </Fragment>
