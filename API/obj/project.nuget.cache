@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1YWYGmePOm0=",
+  "dgSpecHash": "9YOBuARVS6U=",
   "success": true,
-  "projectFilePath": "C:\\Users\\p48747wl\\repos\\ReactActivities\\ReactActivities\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\p48747wl\\repos\\ReactActivities\\ReactActivities\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\p48747wl\\.nuget\\packages\\autofac\\8.1.1\\autofac.8.1.1.nupkg.sha512",
     "C:\\Users\\p48747wl\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
