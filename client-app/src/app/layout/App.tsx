@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-expressions */
 import { Fragment, useEffect, useState } from "react";
 import "./styles.css";
 import axios from "axios";
@@ -38,6 +39,13 @@ function App() {
     setEditMode(false);
   }
 
+  function handleCreateOrEditActivity(activity: Activity){
+    activity.id ? setActivities([...activities.filter(x => x.id !== activity.id), activity])
+    : setActivities([...activities, activity])
+    setEditMode(false);
+    selectedActivity(activity);
+  }
+
   return (
     <Fragment>
       <NavBar openForm={handleFormOpen} />
@@ -50,6 +58,7 @@ function App() {
           editMode={editMode}
           openForm={handleFormOpen}
           closeForm={handleFormClose}
+          createOrEdit={handleCreateOrEditActivity}
         />
       </Container>
     </Fragment>
